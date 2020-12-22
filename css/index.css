@@ -1,4 +1,37 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Noto+Serif+JP:wght@200;300;400;500;600;700&display=swap');
+
+h1, h2, h3, h4, h5{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{ 
+    font-family: 'Noto Serif JP', serif;
+}
+
+.navbar-inverse .navbar-brand {
+    color: inherit;
+}
+
+img{ margin: 10px 10px 10px 10px;
+    
+}
+
+.btn-primary{
+    color: #bfbddb;
+    background-color: rgb(58 58 58 / .993);
+    border-color: white;
+}
+
+.btn-block{ margin: 10px 10px 10px 10px;
+    width: 98%;
+}
+
+
+
+.navbar-inverse{
+    background-color: black;
+    color: #ffffba;
 
 .navbar-nav.navbar-right:last-child {
     margin-right: 0;
